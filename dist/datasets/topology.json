@@ -54,6 +54,24 @@
             "dashlink": "/platform/serverslinux"
         },
         {
+            "id": "BCA-AJC-MD-01",
+            "label": "Market Data Streamimg",
+            "group": 2,
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+        },
+        {
+            "id": "BCA-AJC-MD-02",
+            "label": "Market Data Streamimg",
+            "group": 2,
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+        },
+        {
             "id": "BCA-AJC-DS-01",
             "label": "RSP DealServer",
             "group": 3,
@@ -74,6 +92,96 @@
         {
             "id": "BCA-AJC-DS-03",
             "label": "RSP DealServer",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-ER-01",
+            "label": "Erik Server",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-ER-02",
+            "label": "Erik Server",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-ER-03",
+            "label": "Erik Server",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-IR-01",
+            "label": "IRESS DealServer",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-IR-02",
+            "label": "IRESS DealServer",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-IR-03",
+            "label": "IRESS DealServer",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-FT-01",
+            "label": "FTP Server",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-HI-01",
+            "label": "Hitec DSX DealServer",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-MW-01",
+            "label": " SS3 Middleware Server",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-MW-02",
+            "label": " SS3 Middleware Server",
             "group": 3,
             "colour": "#21d180",
             "scale": 4,
