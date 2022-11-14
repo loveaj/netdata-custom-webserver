@@ -1,0 +1,140 @@
+{
+    "nodes": [{
+            "id": "AJBCOPY",
+            "label": "IBM i",
+            "group": 1,
+            "colour": "#1775e5",
+            "scale": 6,
+            "os": "OS/400",
+            "dashlink": "/platform/ibmi"
+        },
+        {
+            "id": "BCA-AJC-HT-01",
+            "label": "Apache HTTPS endpoint",
+            "group": 2,
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+        },
+        {
+            "id": "BCA-AJC-TC-01",
+            "label": "Funds and Shares Site",
+            "group": 2,
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+        },
+        {
+            "id": "BCA-AJC-TC-06",
+            "label": "APIs",
+            "group": 2,
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+        },
+        {
+            "id": "BCA-AJC-TC-08",
+            "label": "APIs",
+            "group": 2,
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+        },
+        {
+            "id": "BCA-AJC-LD-01",
+            "label": "OpenLDAP",
+            "group": 2,
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+        },
+        {
+            "id": "BCA-AJC-DS-01",
+            "label": "RSP DealServer",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-DS-02",
+            "label": "RSP DealServer",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        },
+        {
+            "id": "BCA-AJC-DS-03",
+            "label": "RSP DealServer",
+            "group": 3,
+            "colour": "#21d180",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/example"
+        }
+    ],
+    "links": [{
+            "source": "BCA-AJC-HT-01",
+            "target": "BCA-AJC-TC-01",
+            "value": 1
+        },
+        {
+            "source": "BCA-AJC-TC-01",
+            "target": "BCA-AJC-LD-01",
+            "value": 1
+        },
+        {
+            "source": "BCA-AJC-TC-01",
+            "target": "AJBCOPY",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-06",
+            "target": "AJBCOPY",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-08",
+            "target": "AJBCOPY",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-06",
+            "target": "BCA-AJC-DS-01",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-08",
+            "target": "BCA-AJC-DS-01",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-06",
+            "target": "BCA-AJC-DS-02",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-08",
+            "target": "BCA-AJC-DS-02",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-06",
+            "target": "BCA-AJC-DS-03",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-08",
+            "target": "BCA-AJC-DS-03",
+            "value": 5
+        }
+    ]
+}
