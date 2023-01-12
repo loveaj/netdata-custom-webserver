@@ -78,7 +78,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?targetHost=BCA-AJC-DS-01"
         },
         {
             "id": "BCA-AJC-DS-02",
