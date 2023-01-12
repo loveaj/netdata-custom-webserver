@@ -3,79 +3,139 @@
             "id": "AJBCOPY",
             "label": "IBM i",
             "group": 1,
+<<<<<<< HEAD
             "colour": "#082e9e",
             "scale": 6,
             "os": "OS/400",
             "dashlink": "/platform/ibmi?targetHost=AJBCOPY"
+=======
+            "colour": "#1775e5",
+            "scale": 6,
+            "os": "OS/400",
+            "dashlink": "/platform/ibmi"
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
         },
         {
             "id": "BCA-AJC-HT-01",
             "label": "Apache HTTPS endpoint",
             "group": 2,
+<<<<<<< HEAD
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
             "dashlink": "/platform/serverlinux?targetHost=localhost"
+=======
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
         },
         {
             "id": "BCA-AJC-TC-01",
             "label": "Funds and Shares Site",
             "group": 2,
+<<<<<<< HEAD
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
             "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-TC-01"
+=======
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
         },
         {
             "id": "BCA-AJC-TC-06",
             "label": "APIs",
             "group": 2,
+<<<<<<< HEAD
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
             "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-TC-06"
+=======
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
         },
         {
             "id": "BCA-AJC-TC-08",
             "label": "APIs",
             "group": 2,
+<<<<<<< HEAD
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
             "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-TC-08"
+=======
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
         },
         {
             "id": "BCA-AJC-LD-01",
             "label": "OpenLDAP",
             "group": 2,
+<<<<<<< HEAD
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
             "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-LD-01"
+=======
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
         },
         {
             "id": "BCA-AJC-MD-01",
             "label": "Market Data Streamimg",
             "group": 2,
+<<<<<<< HEAD
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
             "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-MD-01"
+=======
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
         },
         {
             "id": "BCA-AJC-MD-02",
             "label": "Market Data Streamimg",
             "group": 2,
+<<<<<<< HEAD
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
             "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-MD-02"
+=======
+            "colour": "#ad70d5",
+            "scale": 4,
+            "os": "Linux",
+            "dashlink": "/platform/serverslinux"
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
         },
         {
             "id": "BCA-AJC-DS-01",
             "label": "RSP DealServer",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -84,7 +144,11 @@
             "id": "BCA-AJC-DS-02",
             "label": "RSP DealServer",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -93,7 +157,11 @@
             "id": "BCA-AJC-DS-03",
             "label": "RSP DealServer",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -102,7 +170,11 @@
             "id": "BCA-AJC-ER-01",
             "label": "Erik Server",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -111,7 +183,11 @@
             "id": "BCA-AJC-ER-02",
             "label": "Erik Server",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -120,7 +196,11 @@
             "id": "BCA-AJC-ER-03",
             "label": "Erik Server",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -129,7 +209,11 @@
             "id": "BCA-AJC-IR-01",
             "label": "IRESS DealServer",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -138,7 +222,11 @@
             "id": "BCA-AJC-IR-02",
             "label": "IRESS DealServer",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -147,7 +235,11 @@
             "id": "BCA-AJC-IR-03",
             "label": "IRESS DealServer",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -156,16 +248,26 @@
             "id": "BCA-AJC-FT-01",
             "label": "FTP Server",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
         },
         {
             "id": "BCA-AJC-HI-01",
+<<<<<<< HEAD
             "label": "Hitec DSX DMS",
             "group": 3,
             "colour": "#178add",
+=======
+            "label": "Hitec DSX DealServer",
+            "group": 3,
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -174,7 +276,11 @@
             "id": "BCA-AJC-MW-01",
             "label": " SS3 Middleware Server",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -183,7 +289,11 @@
             "id": "BCA-AJC-MW-02",
             "label": " SS3 Middleware Server",
             "group": 3,
+<<<<<<< HEAD
             "colour": "#178add",
+=======
+            "colour": "#21d180",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/example"
@@ -205,6 +315,7 @@
             "value": 5
         },
         {
+<<<<<<< HEAD
             "source": "BCA-AJC-TC-01",
             "target": "BCA-AJC-DS-01",
             "value": 5
@@ -215,11 +326,14 @@
             "value": 5
         },
         {
+=======
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "source": "BCA-AJC-TC-06",
             "target": "AJBCOPY",
             "value": 5
         },
         {
+<<<<<<< HEAD
             "source": "BCA-AJC-TC-06",
             "target": "BCA-AJC-LD-01",
             "value": 5
@@ -260,13 +374,20 @@
             "value": 5
         },
         {
+=======
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "source": "BCA-AJC-TC-08",
             "target": "AJBCOPY",
             "value": 5
         },
         {
+<<<<<<< HEAD
             "source": "BCA-AJC-TC-08",
             "target": "BCA-AJC-LD-01",
+=======
+            "source": "BCA-AJC-TC-06",
+            "target": "BCA-AJC-DS-01",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "value": 5
         },
         {
@@ -275,12 +396,17 @@
             "value": 5
         },
         {
+<<<<<<< HEAD
             "source": "BCA-AJC-TC-08",
+=======
+            "source": "BCA-AJC-TC-06",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "target": "BCA-AJC-DS-02",
             "value": 5
         },
         {
             "source": "BCA-AJC-TC-08",
+<<<<<<< HEAD
             "target": "BCA-AJC-DS-03",
             "value": 5
         },
@@ -297,10 +423,19 @@
         {
             "source": "BCA-AJC-TC-08",
             "target": "BCA-AJC-IR-03",
+=======
+            "target": "BCA-AJC-DS-02",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-06",
+            "target": "BCA-AJC-DS-03",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "value": 5
         },
         {
             "source": "BCA-AJC-TC-08",
+<<<<<<< HEAD
             "target": "BCA-AJC-HI-01",
             "value": 5
         },
@@ -327,6 +462,9 @@
         {
             "source": "BCA-AJC-ER-03",
             "target": "AJBCOPY",
+=======
+            "target": "BCA-AJC-DS-03",
+>>>>>>> a8ba20db87157eec90fe68c56cca5fac045ac569
             "value": 5
         }
     ]
