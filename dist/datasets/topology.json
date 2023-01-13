@@ -6,7 +6,7 @@
             "colour": "#082e9e",
             "scale": 6,
             "os": "OS/400",
-            "dashlink": "/platform/ibmi?targetHost=AJBCOPY"
+            "dashlink": "/platform/ibmi?collectorHost=BCA-AJC-ND-01&targetHost=AJBCOPY"
         },
         {
             "id": "BCA-AJC-HT-01",
@@ -15,7 +15,7 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
-            "dashlink": "/platform/serverlinux?targetHost=localhost"
+            "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-HT-01"
         },
         {
             "id": "BCA-AJC-TC-01",
@@ -24,7 +24,7 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
-            "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-TC-01"
+            "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-TC-01"
         },
         {
             "id": "BCA-AJC-TC-06",
@@ -33,7 +33,7 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
-            "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-TC-06"
+            "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-TC-06"
         },
         {
             "id": "BCA-AJC-TC-08",
@@ -42,7 +42,7 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
-            "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-TC-08"
+            "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-TC-08"
         },
         {
             "id": "BCA-AJC-LD-01",
@@ -51,7 +51,7 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
-            "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-LD-01"
+            "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-LD-01"
         },
         {
             "id": "BCA-AJC-MD-01",
@@ -60,7 +60,7 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
-            "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-MD-01"
+            "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MD-01"
         },
         {
             "id": "BCA-AJC-MD-02",
@@ -69,7 +69,7 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
-            "dashlink": "/platform/serverlinux?targetHost=BCA-AJC-MD-02"
+            "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MD-02"
         },
         {
             "id": "BCA-AJC-DS-01",
@@ -78,7 +78,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/serverwindows?targetHost=BCA-AJC-DS-01"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-DS-01"
         },
         {
             "id": "BCA-AJC-DS-02",
@@ -87,7 +87,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-DS-02"
         },
         {
             "id": "BCA-AJC-DS-03",
@@ -96,7 +96,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-DS-03"
         },
         {
             "id": "BCA-AJC-ER-01",
@@ -105,7 +105,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-01"
         },
         {
             "id": "BCA-AJC-ER-02",
@@ -114,7 +114,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-02"
         },
         {
             "id": "BCA-AJC-ER-03",
@@ -123,7 +123,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-03"
         },
         {
             "id": "BCA-AJC-IR-01",
@@ -132,7 +132,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-01"
         },
         {
             "id": "BCA-AJC-IR-02",
@@ -141,7 +141,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-02"
         },
         {
             "id": "BCA-AJC-IR-03",
@@ -150,7 +150,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-03"
         },
         {
             "id": "BCA-AJC-FT-01",
@@ -159,7 +159,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-FT-01"
         },
         {
             "id": "BCA-AJC-HI-01",
@@ -168,7 +168,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-HI-01"
         },
         {
             "id": "BCA-AJC-MW-01",
@@ -177,7 +177,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MW-01"
         },
         {
             "id": "BCA-AJC-MW-02",
@@ -186,7 +186,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/example"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MW-02"
         }
     ],
     "links": [{
