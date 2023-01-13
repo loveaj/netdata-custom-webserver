@@ -9,15 +9,6 @@
             "dashlink": "/platform/ibmi?collectorHost=BCA-AJC-ND-01&targetHost=AJBCOPY"
         },
         {
-            "id": "BCA-AJC-HT-01",
-            "label": "Apache HTTPS endpoint",
-            "group": 2,
-            "colour": "#ee0600",
-            "scale": 4,
-            "os": "Linux",
-            "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-HT-01"
-        },
-        {
             "id": "BCA-AJC-TC-01",
             "label": "Funds and Shares Site",
             "group": 2,
@@ -126,6 +117,15 @@
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-03"
         },
         {
+            "id": "BCA-AJC-ER-04",
+            "label": "Erik Server",
+            "group": 3,
+            "colour": "#178add",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-04"
+        },
+        {
             "id": "BCA-AJC-IR-01",
             "label": "IRESS DealServer",
             "group": 3,
@@ -133,24 +133,6 @@
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-01"
-        },
-        {
-            "id": "BCA-AJC-IR-02",
-            "label": "IRESS DealServer",
-            "group": 3,
-            "colour": "#178add",
-            "scale": 4,
-            "os": "Windows",
-            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-02"
-        },
-        {
-            "id": "BCA-AJC-IR-03",
-            "label": "IRESS DealServer",
-            "group": 3,
-            "colour": "#178add",
-            "scale": 4,
-            "os": "Windows",
-            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-03"
         },
         {
             "id": "BCA-AJC-FT-01",
@@ -162,13 +144,13 @@
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-FT-01"
         },
         {
-            "id": "BCA-AJC-HI-01",
+            "id": "BCA-AJC-HI-02",
             "label": "Hitec DSX DMS",
             "group": 3,
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-HI-01"
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-HI-02"
         },
         {
             "id": "BCA-AJC-MW-01",
@@ -187,14 +169,45 @@
             "scale": 4,
             "os": "Windows",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MW-02"
-        }
+        },
+        {
+            "id": "BCA-AJC-PP-01",
+            "label": " Planet Press Server",
+            "group": 3,
+            "colour": "#178add",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-01"
+        },       
+        {
+            "id": "BCA-AJC-PP-02",
+            "label": " Planet Press Server",
+            "group": 3,
+            "colour": "#178add",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-02"
+        },       
+        {
+            "id": "BCA-AJC-PP-03",
+            "label": " Planet Press Server",
+            "group": 3,
+            "colour": "#178add",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-03"
+        },       
+        {
+            "id": "BCA-AJC-PP-04",
+            "label": " Planet Press Server",
+            "group": 3,
+            "colour": "#178add",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-04"
+        },       
     ],
     "links": [{
-            "source": "BCA-AJC-HT-01",
-            "target": "BCA-AJC-TC-01",
-            "value": 1
-        },
-        {
             "source": "BCA-AJC-TC-01",
             "target": "BCA-AJC-LD-01",
             "value": 1
@@ -211,7 +224,7 @@
         },
         {
             "source": "BCA-AJC-TC-01",
-            "target": "BCA-AJC-HI-01",
+            "target": "BCA-AJC-HI-02",
             "value": 5
         },
         {
@@ -246,17 +259,27 @@
         },
         {
             "source": "BCA-AJC-TC-06",
-            "target": "BCA-AJC-IR-02",
+            "target": "BCA-AJC-PP-01",
             "value": 5
         },
         {
             "source": "BCA-AJC-TC-06",
-            "target": "BCA-AJC-IR-03",
+            "target": "BCA-AJC-PP-02",
             "value": 5
         },
         {
             "source": "BCA-AJC-TC-06",
-            "target": "BCA-AJC-HI-01",
+            "target": "BCA-AJC-PP-03",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-06",
+            "target": "BCA-AJC-PP-04",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-06",
+            "target": "BCA-AJC-HI-02",
             "value": 5
         },
         {
@@ -291,17 +314,27 @@
         },
         {
             "source": "BCA-AJC-TC-08",
-            "target": "BCA-AJC-IR-02",
+            "target": "BCA-AJC-PP-01",
             "value": 5
         },
         {
             "source": "BCA-AJC-TC-08",
-            "target": "BCA-AJC-IR-03",
+            "target": "BCA-AJC-PP-02",
             "value": 5
         },
         {
             "source": "BCA-AJC-TC-08",
-            "target": "BCA-AJC-HI-01",
+            "target": "BCA-AJC-PP-03",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-08",
+            "target": "BCA-AJC-PP-04",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-TC-08",
+            "target": "BCA-AJC-HI-02",
             "value": 5
         },
         {
