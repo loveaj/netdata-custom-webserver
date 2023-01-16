@@ -135,6 +135,24 @@
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-01"
         },
         {
+            "id": "BCA-AJC-IR-02",
+            "label": "IRESS DealServer",
+            "group": 3,
+            "colour": "#178add",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-02"
+        },
+        {
+            "id": "BCA-AJC-IR-03",
+            "label": "IRESS DealServer",
+            "group": 3,
+            "colour": "#178add",
+            "scale": 4,
+            "os": "Windows",
+            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-03"
+        },
+        {
             "id": "BCA-AJC-FT-01",
             "label": "FTP Server",
             "group": 3,
@@ -254,31 +272,6 @@
         },
         {
             "source": "BCA-AJC-TC-06",
-            "target": "BCA-AJC-IR-01",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-06",
-            "target": "BCA-AJC-PP-01",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-06",
-            "target": "BCA-AJC-PP-02",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-06",
-            "target": "BCA-AJC-PP-03",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-06",
-            "target": "BCA-AJC-PP-04",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-06",
             "target": "BCA-AJC-HI-02",
             "value": 5
         },
@@ -309,32 +302,17 @@
         },
         {
             "source": "BCA-AJC-TC-08",
-            "target": "BCA-AJC-IR-01",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-08",
-            "target": "BCA-AJC-PP-01",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-08",
-            "target": "BCA-AJC-PP-02",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-08",
-            "target": "BCA-AJC-PP-03",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-08",
-            "target": "BCA-AJC-PP-04",
-            "value": 5
-        },
-        {
-            "source": "BCA-AJC-TC-08",
             "target": "BCA-AJC-HI-02",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-MD-01",
+            "target": "AJBCOPY",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-MD-02",
+            "target": "AJBCOPY",
             "value": 5
         },
         {
@@ -360,6 +338,46 @@
         {
             "source": "BCA-AJC-ER-03",
             "target": "AJBCOPY",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-ER-04",
+            "target": "AJBCOPY",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-IR-01",
+            "target": "AJBCOPY",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-IR-02",
+            "target": "AJBCOPY",
+            "value": 5
+        },
+        {
+            "source": "BCA-AJC-IR-03",
+            "target": "AJBCOPY",
+            "value": 5
+        },
+        {
+            "source": "AJBCOPY",
+            "target": "BCA-AJC-PP-01",
+            "value": 5
+        },
+        {
+            "source": "AJBCOPY",
+            "target": "BCA-AJC-PP-02",
+            "value": 5
+        },
+        {
+            "source": "AJBCOPY",
+            "target": "BCA-AJC-PP-03",
+            "value": 5
+        },
+        {
+            "source": "AJBCOPY",
+            "target": "BCA-AJC-PP-04",
             "value": 5
         }
     ]
