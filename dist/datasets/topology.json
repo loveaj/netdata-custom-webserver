@@ -150,7 +150,7 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
-            "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-HI-02"
+            "dashlink": "/platform/serverwindowslarge?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-HI-02"
         },
         {
             "id": "BCA-AJC-MW-01",
