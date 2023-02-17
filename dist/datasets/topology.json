@@ -6,6 +6,8 @@
             "colour": "#082e9e",
             "scale": 6,
             "os": "OS/400",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "AJBCOPY",
             "dashlink": "/platform/ibmi?collectorHost=BCA-AJC-ND-01&targetHost=AJBCOPY"
         },
         {
