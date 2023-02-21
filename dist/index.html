@@ -20,7 +20,7 @@
         // --- OPTIONS FOR THE CHARTS --
 
         // Debug
-        NETDATA.options.debug.main_loop = false;
+        NETDATA.options.debug.main_loop = true;
 
         // destroy charts not shown (lowers memory on the browsers)
         // set this to 'true' to destroy, 'false' to hide the charts
@@ -36,7 +36,7 @@
         NETDATA.options.current.parallel_refresher = true;
 
         // set this to false, to always update the charts, even if focus is lost
-        NETDATA.options.current.stop_updates_when_focus_is_lost = true;
+        NETDATA.options.current.stop_updates_when_focus_is_lost = false;
 
         // since we have many servers and limited sockets,
         // abort ajax calls when we scroll
