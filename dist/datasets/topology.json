@@ -17,6 +17,8 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-TC-01",
             "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-TC-01"
         },
         {
@@ -71,6 +73,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-DS-01",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-DS-01"
         },
         {
