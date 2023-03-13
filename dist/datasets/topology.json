@@ -28,6 +28,8 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-TC-06",
             "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-TC-06"
         },
         {
@@ -37,6 +39,8 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-TC-08",
             "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-TC-08"
         },
         {
@@ -46,6 +50,8 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-LD-01",
             "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-LD-01"
         },
         {
@@ -55,6 +61,8 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-MD-01",
             "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MD-01"
         },
         {
@@ -64,6 +72,8 @@
             "colour": "#ee0600",
             "scale": 4,
             "os": "Linux",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-MD-02",
             "dashlink": "/platform/serverlinux?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MD-02"
         },
         {
@@ -84,6 +94,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-DS-02",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-DS-02"
         },
         {
@@ -93,6 +105,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-DS-03",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-DS-03"
         },
         {
@@ -102,6 +116,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-ER-01",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-01"
         },
         {
@@ -111,6 +127,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-ER-02",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-02"
         },
         {
@@ -120,6 +138,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-ER-03",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-03"
         },
         {
@@ -129,6 +149,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-ER-04",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-04"
         },
         {
@@ -138,6 +160,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-IR-01",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-01"
         },
         {
@@ -147,6 +171,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-IR-02",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-02"
         },
         {
@@ -156,6 +182,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-IR-03",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-03"
         },
         {
@@ -165,6 +193,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-FT-01",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-FT-01"
         },
         {
@@ -174,6 +204,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-HI-02",           
             "dashlink": "/platform/serverwindowslarge?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-HI-02"
         },
         {
@@ -183,6 +215,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-MW-01",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MW-01"
         },
         {
@@ -192,6 +226,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-MW-02",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MW-02"
         },
         {
@@ -201,6 +237,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-PP-01",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-01"
         },       
         {
@@ -210,6 +248,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-PP-02",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-02"
         },       
         {
@@ -219,6 +259,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-PP-03",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-03"
         },       
         {
@@ -228,6 +270,8 @@
             "colour": "#178add",
             "scale": 4,
             "os": "Windows",
+            "collectorhost": "BCA-AJC-ND-01",
+            "targethost": "BCA-AJC-PP-04",           
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-04"
         }       
     ],
