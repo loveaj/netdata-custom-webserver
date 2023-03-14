@@ -2,8 +2,8 @@ var __getOwnPropNames = Object.getOwnPropertyNames;
 var __commonJS = (cb, mod) => function __require() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
-var require_index_34347515 = __commonJS({
-  "assets/index.34347515.js"(exports) {
+var require_index_f4da7346 = __commonJS({
+  "assets/index.f4da7346.js"(exports) {
     function _mergeNamespaces(n2, m2) {
       for (var i2 = 0; i2 < m2.length; i2++) {
         const e2 = m2[i2];
@@ -23193,6 +23193,15 @@ var require_index_34347515 = __commonJS({
       targetHost
     }) {
       const DynamicComponent = nodeOs === "OS400" ? MiniCardOS400 : nodeOs === "LINUX" ? MiniCardLINUX : MiniCardWINDOWS;
+      const handleClosePanel = () => {
+        NETDATA.pause(function() {
+          setSelectedNodeId(false);
+          setSelectedNodeLabel(false);
+          setSelectedNodeOs(false);
+          setCollectorHost(false);
+          setTargetHost(false);
+        });
+      };
       return /* @__PURE__ */ jsx(Ke.Root, {
         show: openPanel,
         as: react.exports.Fragment,
@@ -23235,7 +23244,7 @@ var require_index_34347515 = __commonJS({
                               children: /* @__PURE__ */ jsxs("button", {
                                 type: "button",
                                 className: "rounded-md bg-gray-200 text-black hover:text-red-900 focus:outline-none focus:ring-2 focus:ring-red-900",
-                                onClick: () => setOpenPanel(false),
+                                onClick: () => handleClosePanel(),
                                 children: [/* @__PURE__ */ jsx("span", {
                                   className: "sr-only",
                                   children: "Close panel"
@@ -23313,27 +23322,27 @@ var require_index_34347515 = __commonJS({
       const [initialCentre, setInitialCentre] = react.exports.useState(true);
       const forceRef = react.exports.useRef();
       const [openPanel, setOpenPanel] = react.exports.useState(false);
-      const [selectedNodeId, setSelectedNodeId] = react.exports.useState(false);
-      const [selectedNodeLabel, setSelectedNodeLabel] = react.exports.useState(false);
-      const [selectedNodeOs, setSelectedNodeOs] = react.exports.useState(false);
-      const [collectorHost, setCollectorHost] = react.exports.useState(false);
-      const [targetHost, setTargetHost] = react.exports.useState(false);
+      const [selectedNodeId, setSelectedNodeId2] = react.exports.useState(false);
+      const [selectedNodeLabel, setSelectedNodeLabel2] = react.exports.useState(false);
+      const [selectedNodeOs, setSelectedNodeOs2] = react.exports.useState(false);
+      const [collectorHost, setCollectorHost2] = react.exports.useState(false);
+      const [targetHost, setTargetHost2] = react.exports.useState(false);
       const handleOpenPanel = (id2, label, os, collectorhost, targethost) => {
         NETDATA.pause(function() {
-          setSelectedNodeId(id2);
-          setSelectedNodeLabel(label);
-          setSelectedNodeOs(os.toUpperCase());
-          setCollectorHost(collectorhost);
-          setTargetHost(targethost);
+          setSelectedNodeId2(id2);
+          setSelectedNodeLabel2(label);
+          setSelectedNodeOs2(os.toUpperCase());
+          setCollectorHost2(collectorhost);
+          setTargetHost2(targethost);
         });
       };
       const handleClosePanel = () => {
         NETDATA.pause(function() {
-          setSelectedNodeId(false);
-          setSelectedNodeLabel(false);
-          setSelectedNodeOs(false);
-          setCollectorHost(false);
-          setTargetHost(false);
+          setSelectedNodeId2(false);
+          setSelectedNodeLabel2(false);
+          setSelectedNodeOs2(false);
+          setCollectorHost2(false);
+          setTargetHost2(false);
         });
       };
       react.exports.useEffect(() => {
@@ -23516,4 +23525,4 @@ var require_index_34347515 = __commonJS({
     }));
   }
 });
-export default require_index_34347515();
+export default require_index_f4da7346();
