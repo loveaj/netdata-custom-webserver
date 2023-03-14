@@ -2,8 +2,8 @@ var __getOwnPropNames = Object.getOwnPropertyNames;
 var __commonJS = (cb, mod) => function __require() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
-var require_index_258eaf8a = __commonJS({
-  "assets/index.258eaf8a.js"(exports) {
+var require_index_21519bf3 = __commonJS({
+  "assets/index.21519bf3.js"(exports) {
     function _mergeNamespaces(n2, m2) {
       for (var i2 = 0; i2 < m2.length; i2++) {
         const e2 = m2[i2];
@@ -23333,7 +23333,9 @@ var require_index_258eaf8a = __commonJS({
       react.exports.useEffect(() => {
         console.log("DashboardCardTopology handleOpenPanel os=" + selectedNodeOs);
         NETDATA.unpause();
-        setOpenPanel(true);
+        if (!selectedNodeOs === false) {
+          setOpenPanel(true);
+        }
       }, [selectedNodeId, selectedNodeLabel, selectedNodeOs, collectorHost, targetHost]);
       react.exports.useEffect(() => {
         fetch("/datasets/topology.json").then((res) => res.json()).then((data) => {
@@ -23506,4 +23508,4 @@ var require_index_258eaf8a = __commonJS({
     }));
   }
 });
-export default require_index_258eaf8a();
+export default require_index_21519bf3();
