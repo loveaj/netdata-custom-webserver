@@ -2,8 +2,8 @@ var __getOwnPropNames = Object.getOwnPropertyNames;
 var __commonJS = (cb, mod) => function __require() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
-var require_index_c40c6bbc = __commonJS({
-  "assets/index.c40c6bbc.js"(exports) {
+var require_index_34347515 = __commonJS({
+  "assets/index.34347515.js"(exports) {
     function _mergeNamespaces(n2, m2) {
       for (var i2 = 0; i2 < m2.length; i2++) {
         const e2 = m2[i2];
@@ -23328,17 +23328,20 @@ var require_index_c40c6bbc = __commonJS({
         });
       };
       const handleClosePanel = () => {
-        setOpenPanel(false);
-        setSelectedNodeId(false);
-        setSelectedNodeLabel(false);
-        setSelectedNodeOs(false);
-        setCollectorHost(false);
-        setTargetHost(false);
+        NETDATA.pause(function() {
+          setSelectedNodeId(false);
+          setSelectedNodeLabel(false);
+          setSelectedNodeOs(false);
+          setCollectorHost(false);
+          setTargetHost(false);
+        });
       };
       react.exports.useEffect(() => {
-        console.log("DashboardCardTopology handleOpenPanel os=" + selectedNodeOs);
+        console.log("DashboardCardTopology os=" + selectedNodeOs);
         NETDATA.unpause();
-        if (!selectedNodeOs === false) {
+        if (selectedNodeOs === false) {
+          setOpenPanel(false);
+        } else {
           setOpenPanel(true);
         }
       }, [selectedNodeId, selectedNodeLabel, selectedNodeOs, collectorHost, targetHost]);
@@ -23513,4 +23516,4 @@ var require_index_c40c6bbc = __commonJS({
     }));
   }
 });
-export default require_index_c40c6bbc();
+export default require_index_34347515();
