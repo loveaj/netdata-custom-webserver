@@ -1,5 +1,16 @@
 {
     "nodes": [{
+            "id": "lovea-xps",
+            "label": "Laptop",
+            "group": 2,
+            "colour": "#ee0600",
+            "scale": 4,
+            "os": "Linux",
+            "collectorhost": "lovea-xps",
+            "targethost": "lovea-xps",
+            "dashlink": ""
+        },
+        {
             "id": "AJBCOPY",
             "label": "IBM i",
             "group": 1,
@@ -84,7 +95,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-DS-01",           
+            "targethost": "BCA-AJC-DS-01",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-DS-01"
         },
         {
@@ -95,7 +106,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-DS-02",           
+            "targethost": "BCA-AJC-DS-02",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-DS-02"
         },
         {
@@ -106,7 +117,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-DS-03",           
+            "targethost": "BCA-AJC-DS-03",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-DS-03"
         },
         {
@@ -117,7 +128,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-ER-01",           
+            "targethost": "BCA-AJC-ER-01",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-01"
         },
         {
@@ -128,7 +139,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-ER-02",           
+            "targethost": "BCA-AJC-ER-02",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-02"
         },
         {
@@ -139,7 +150,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-ER-03",           
+            "targethost": "BCA-AJC-ER-03",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-03"
         },
         {
@@ -150,7 +161,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-ER-04",           
+            "targethost": "BCA-AJC-ER-04",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-ER-04"
         },
         {
@@ -161,7 +172,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-IR-01",           
+            "targethost": "BCA-AJC-IR-01",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-01"
         },
         {
@@ -172,7 +183,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-IR-02",           
+            "targethost": "BCA-AJC-IR-02",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-02"
         },
         {
@@ -183,7 +194,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-IR-03",           
+            "targethost": "BCA-AJC-IR-03",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-IR-03"
         },
         {
@@ -194,7 +205,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-FT-01",           
+            "targethost": "BCA-AJC-FT-01",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-FT-01"
         },
         {
@@ -205,7 +216,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-HI-02",           
+            "targethost": "BCA-AJC-HI-02",
             "dashlink": "/platform/serverwindowslarge?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-HI-02"
         },
         {
@@ -216,7 +227,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-MW-01",           
+            "targethost": "BCA-AJC-MW-01",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MW-01"
         },
         {
@@ -227,7 +238,7 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-MW-02",           
+            "targethost": "BCA-AJC-MW-02",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-MW-02"
         },
         {
@@ -238,9 +249,9 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-PP-01",           
+            "targethost": "BCA-AJC-PP-01",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-01"
-        },       
+        },
         {
             "id": "BCA-AJC-PP-02",
             "label": " Planet Press Server",
@@ -249,9 +260,9 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-PP-02",           
+            "targethost": "BCA-AJC-PP-02",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-02"
-        },       
+        },
         {
             "id": "BCA-AJC-PP-03",
             "label": " Planet Press Server",
@@ -260,9 +271,9 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-PP-03",           
+            "targethost": "BCA-AJC-PP-03",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-03"
-        },       
+        },
         {
             "id": "BCA-AJC-PP-04",
             "label": " Planet Press Server",
@@ -271,9 +282,9 @@
             "scale": 4,
             "os": "Windows",
             "collectorhost": "BCA-AJC-ND-01",
-            "targethost": "BCA-AJC-PP-04",           
+            "targethost": "BCA-AJC-PP-04",
             "dashlink": "/platform/serverwindows?collectorHost=BCA-AJC-ND-01&targetHost=BCA-AJC-PP-04"
-        }       
+        }
     ],
     "links": [{
             "source": "BCA-AJC-TC-01",
